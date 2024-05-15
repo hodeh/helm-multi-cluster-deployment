@@ -1,0 +1,7 @@
+replicaCount: 3
+image:
+  repository: example/app
+  tag: "1.0.0-prod"
+service:
+  port: 80
+envVar: "production-value"
